@@ -3022,9 +3022,10 @@ __metadata:
     "@kepler.gl/layers": "npm:3.1.0-alpha.0"
     "@kepler.gl/types": "npm:3.1.0-alpha.0"
     "@kepler.gl/utils": "npm:3.1.0-alpha.0"
+    color-interpolate: "npm:^1.0.5"
     echarts: "npm:^5.5.1"
     global: "npm:^4.3.0"
-    react-ai-assist: "npm:0.0.17"
+    react-ai-assist: "npm:0.0.18"
   languageName: unknown
   linkType: soft
 
@@ -10480,6 +10481,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"almost-equal@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "almost-equal@npm:1.1.0"
+  checksum: 10c0/169f50ec565cafcb99043532789c982da1f5b82abb49cf6376d3c2b989e27b6455004f854b26b25086fc5579e4186994d8de64dae29d171f9f7593f43f8c6aa2
+  languageName: node
+  linkType: hard
+
 "ansi-colors@npm:^3.0.0":
   version: 3.2.4
   resolution: "ansi-colors@npm:3.2.4"
@@ -12563,6 +12571,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clamp@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "clamp@npm:1.0.1"
+  checksum: 10c0/8f95ccbc5d646a98c1d690bce820f3d060a5267242083e8994f70dc504ce441dbc7b8ef13b93819129fc166e7a5b6abd320f109bdba0f49b8dcc794710987c97
+  languageName: node
+  linkType: hard
+
 "class-utils@npm:^0.3.5":
   version: 0.3.6
   resolution: "class-utils@npm:0.3.6"
@@ -12773,6 +12788,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"color-interpolate@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "color-interpolate@npm:1.0.5"
+  dependencies:
+    clamp: "npm:^1.0.1"
+    color-parse: "npm:^1.2.0"
+    color-space: "npm:^1.14.3"
+    lerp: "npm:^1.0.3"
+  checksum: 10c0/d32de079fa2722b8c0eeb79a45a2400639f2dfafd20a141743b3b068b656fbc844685b589a7ab40ebeec2da72c1b3391c2c2bbaf9e07b1720ee7d3300a99dbde
+  languageName: node
+  linkType: hard
+
 "color-name@npm:1.1.3":
   version: 1.1.3
   resolution: "color-name@npm:1.1.3"
@@ -12784,6 +12811,25 @@ __metadata:
   version: 1.1.4
   resolution: "color-name@npm:1.1.4"
   checksum: 10c0/a1a3f914156960902f46f7f56bc62effc6c94e84b2cae157a526b1c1f74b677a47ec602bf68a61abfa2b42d15b7c5651c6dbe72a43af720bc588dff885b10f95
+  languageName: node
+  linkType: hard
+
+"color-parse@npm:^1.2.0":
+  version: 1.4.3
+  resolution: "color-parse@npm:1.4.3"
+  dependencies:
+    color-name: "npm:^1.0.0"
+  checksum: 10c0/3473e7fb53d643dffc508c4f3161890f405ece9d78cc84277576212346b17ad037d1a0c6beb49e9b55bc11435a8c85b7ff9f94a6b898eb82647d4a46615d23da
+  languageName: node
+  linkType: hard
+
+"color-space@npm:^1.14.3":
+  version: 1.16.0
+  resolution: "color-space@npm:1.16.0"
+  dependencies:
+    hsluv: "npm:^0.0.3"
+    mumath: "npm:^3.3.4"
+  checksum: 10c0/93c977671d9b90392477e863c6bf49598256ae63b5196bcdc9f74184a7cd4e125ebf6695e3f34082c1dba8f9eb303eeafd91d8be237064ab7d6a2f6a256014ea
   languageName: node
   linkType: hard
 
@@ -17636,6 +17682,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hsluv@npm:^0.0.3":
+  version: 0.0.3
+  resolution: "hsluv@npm:0.0.3"
+  checksum: 10c0/5855c9dec7d82f5da11769adcf035bdccc025ade9e8f58601bdd7541fc33ef6a2a14dcaa89db097775d028db1bf80b5b4f6167140b61fac3957906401823bb4d
+  languageName: node
+  linkType: hard
+
 "html-element-map@npm:^1.2.0":
   version: 1.3.1
   resolution: "html-element-map@npm:1.3.1"
@@ -20427,6 +20480,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lerp@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "lerp@npm:1.0.3"
+  checksum: 10c0/cd451cff0b0dc9742bd89f8410468834bd184603f19c915bdf89e5a7f8ce5c67a2a9f5d9be53bb18cd3085db02ecbc1543ab8b7e81293b9c8811cad582f8a9d9
+  languageName: node
+  linkType: hard
+
 "leven@npm:^3.1.0":
   version: 3.1.0
   resolution: "leven@npm:3.1.0"
@@ -21918,6 +21978,15 @@ __metadata:
   bin:
     multicast-dns: cli.js
   checksum: 10c0/972fc50869e922d80d66eeb91ad39fd2e107241e0c791fc914e76578e4f7f3dfe3bf007020dd4d7ed4d0ffd69d9aa2238a9f8bbb4d160bd6eb3f35dde0c2c513
+  languageName: node
+  linkType: hard
+
+"mumath@npm:^3.3.4":
+  version: 3.3.4
+  resolution: "mumath@npm:3.3.4"
+  dependencies:
+    almost-equal: "npm:^1.1.0"
+  checksum: 10c0/92b07302674e903b9c2ee0117e04b6783b1619d6bf6c5149d34346e51ce1fb91ab389f30b7f49baa1a9337201afe8f4522120ef8fb7a45bf221f5c1c49da849b
   languageName: node
   linkType: hard
 
@@ -24393,9 +24462,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-ai-assist@npm:0.0.17":
-  version: 0.0.17
-  resolution: "react-ai-assist@npm:0.0.17"
+"react-ai-assist@npm:0.0.18":
+  version: 0.0.18
+  resolution: "react-ai-assist@npm:0.0.18"
   dependencies:
     "@emotion/is-prop-valid": "npm:^1.3.1"
     "@google/generative-ai": "npm:^0.17.1"
@@ -24429,7 +24498,7 @@ __metadata:
     echarts: ^5.5.1
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: 10c0/bef933ffa1cd973b64cd8c08aed51d76939b34529c2c3897628c04330e5d68f280e6c43c601ae1e3fe1dd810e6b5ef474af74719e0c878d6582986c8fa56f087
+  checksum: 10c0/eec51669359192e2cb770f34987ed21f5043972c399bf8522e8ef57f5e9272f37846e9a371fe289a950319c58bce5016648d4ef1ca9620ed5e5d7c4c390cf4ed
   languageName: node
   linkType: hard
 
