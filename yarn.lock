@@ -3025,7 +3025,7 @@ __metadata:
     color-interpolate: "npm:^1.0.5"
     echarts: "npm:^5.5.1"
     global: "npm:^4.3.0"
-    react-ai-assist: "npm:0.0.18"
+    react-ai-assist: "npm:0.0.19"
   languageName: unknown
   linkType: soft
 
@@ -24462,9 +24462,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-ai-assist@npm:0.0.18":
-  version: 0.0.18
-  resolution: "react-ai-assist@npm:0.0.18"
+"react-ai-assist@npm:0.0.19":
+  version: 0.0.19
+  resolution: "react-ai-assist@npm:0.0.19"
   dependencies:
     "@emotion/is-prop-valid": "npm:^1.3.1"
     "@google/generative-ai": "npm:^0.17.1"
@@ -24498,7 +24498,7 @@ __metadata:
     echarts: ^5.5.1
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: 10c0/eec51669359192e2cb770f34987ed21f5043972c399bf8522e8ef57f5e9272f37846e9a371fe289a950319c58bce5016648d4ef1ca9620ed5e5d7c4c390cf4ed
+  checksum: 10c0/e5cc125e5fc3075da60e0ff66d8518bea6b2ee4f08c034a15dfa3bada3934724ffd574700ee3319f4d5cf3a2cac1d5d39cf9ae3481f78b7ee63d07389e3eba07
   languageName: node
   linkType: hard
 
